@@ -1,4 +1,4 @@
-# 🧴 Message in a Bottle
+# (☝ ՞ਊ ՞)☝ Message in a Bottle
 
 A simple full-stack web app that lets users send anonymous "messages in a bottle" to a public feed — powered entirely by **AWS serverless services**.
 
