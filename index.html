@@ -4,19 +4,29 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Message in a Bottle</title>
-  <link rel="stylesheet" href="styles.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/7.css">
 </head>
-<body>
-  <div class="container">
-    <h1>Message in a Bottle 🧴</h1>
-    <form id="messageForm">
-      <input type="text" id="name" placeholder="Your name" required />
-      <textarea id="message" placeholder="Write your message..." required></textarea>
-      <button type="submit">Send</button>
-    </form>
+<body style="background-color: black;">
+  <div class="window" style="width: 400px; margin: 50px auto;">
+    <div class="title-bar">
+      <div class="title-bar-text">Message in a Bottle 🧴</div>
+    </div>
+    <div class="window-body">
+      <form id="messageForm" class="field-row-stacked" style="width: 100%;">
+        <label for="name">Your Name:</label>
+        <input id="name" type="text" required />
 
-    <h2>Previous Messages</h2>
-    <ul id="messagesList"></ul>
+        <label for="message">Your Message:</label>
+        <textarea id="message" rows="5" required></textarea>
+
+        <button type="submit" class="primary">Send</button>
+      </form>
+
+      <hr>
+
+      <h2>Previous Messages</h2>
+      <ul id="messagesList" class="tree-view"></ul>
+    </div>
   </div>
 
   <script src="script.js"></script>
