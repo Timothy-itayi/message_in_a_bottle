@@ -8,7 +8,7 @@ const GET_URL = "https://aqpklbxra9.execute-api.ap-southeast-2.amazonaws.com/mes
 // Submit new message
 form.addEventListener("submit", async (e) => {
   e.preventDefault();
-  const name = document.getElementById("name").value;
+  const name = document.getElementById("title").value;
   const message = document.getElementById("message").value;
 
   await fetch(POST_URL, {
