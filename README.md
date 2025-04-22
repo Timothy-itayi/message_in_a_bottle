@@ -4,7 +4,7 @@ A simple full-stack web app that lets users send anonymous "messages in a bottle
 
 
 <div style="pointer-events: none;">
-<img src="https://github.com/user-attachments/assets/d9886d60-fb06-4ef9-a0a2-f85eec7d998c" width="234" alt="Screenshot 2024-04-24 at 2 04 39 PM"/>
+<img src="https://github.com/user-attachments/assets/d9886d60-fb06-4ef9-a0a2-f85eec7d998c" width="700" alt="Screenshot 2024-04-24 at 2 04 39 PM"/>
 
 
 
